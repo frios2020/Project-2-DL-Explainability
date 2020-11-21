@@ -4,7 +4,7 @@
 # NJIT Data Science Program
 # Course
 # CS677 Deep Learning - Fall 2020
-# Instructor
+Instructor
  
 Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU
 
