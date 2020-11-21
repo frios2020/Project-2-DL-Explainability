@@ -13,9 +13,9 @@ Teaching Assistant
 Nitesh Mistry
 
 Students:
-Fernando Rios
-Hassan Ouanir
-Maha Faruque
+*Fernando Rios
+*Hassan Ouanir
+*Maha Faruque
 
 
 Description
@@ -33,15 +33,15 @@ Part 1
 We created the notebook "CS677 Project 2 Explainability". It is prepared to run easily, just select option run step by step and update the config.yml file with thec correct paths
  
 In its lines this notebook follow these steps.
-Step 1.0 Cloning repository covid-cxr
-Step 2.0 Installing requirements
-Step 3.0 Creating folder Raw_Data to contain all of your raw data. Set the RAW_DATA field in the PATHS 
-Step 4.0 Cloning the covid-chestxray-dataset repository inside of the RAW_DATA folder.
-Step 5.0 Cloning the Figure1-COVID-chestxray-dataset repository inside of RAW_DATA folder.
-Step 6.0 Download and unzip the RSNA Pneumonia Detection Challenge dataset from Kaggle somewhere on your local machine. 
-Step 7.0 Execute preprocess.py to create Pandas DataFrames of filenames and labels. Preprocessed DataFrames and corresponding images of the dataset will be saved within data/processed/.
-Step 8.0 Execute train.py to train the neural network model. The trained model weights are saved within results/models/, and its filename will resemble the following structure: 	
-Step 9.0 Execute lime_explain.py to generate interpretable explanations for the model's predictions on the test set.
+<br>Step 1.0 Cloning repository covid-cxr
+<br>Step 2.0 Installing requirements
+<br>Step 3.0 Creating folder Raw_Data to contain all of your raw data. Set the RAW_DATA field in the PATHS 
+<br>Step 4.0 Cloning the covid-chestxray-dataset repository inside of the RAW_DATA folder.
+<br>Step 5.0 Cloning the Figure1-COVID-chestxray-dataset repository inside of RAW_DATA folder.
+<br>Step 6.0 Download and unzip the RSNA Pneumonia Detection Challenge dataset from Kaggle somewhere on your local machine. 
+<br>Step 7.0 Execute preprocess.py to create Pandas DataFrames of filenames and labels. Preprocessed DataFrames and corresponding images of the dataset will be saved within data/processed/.
+<br>Step 8.0 Execute train.py to train the neural network model. The trained model weights are saved within results/models/, and its filename will resemble the following structure: 	
+<br>Step 9.0 Execute lime_explain.py to generate interpretable explanations for the model's predictions on the test set.
 	!python src/interpretability/lime_explain.py
  
 To visualize the log file we use TensorBoard (Depicting loss on the training and validation sets versus epochs, roc curve and confusion matrix on test sets)
