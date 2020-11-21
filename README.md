@@ -1,10 +1,10 @@
 # Project 2: Project Explainable COVID-19 Pneumonia
 ================================================================
 
-#NJIT Data Science Program
-#Course
-#CS677 Deep Learning - Fall 2020
-#Instructor
+# NJIT Data Science Program
+# Course
+# CS677 Deep Learning - Fall 2020
+# Instructor
  
 Pantelis Monogioudis, Ph.D Professor of Practice, NJIT & Adjunct NYU
 
