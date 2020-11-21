@@ -13,9 +13,9 @@ Teaching Assistant
 Nitesh Mistry
 
 Students:
-*Fernando Rios
-*Hassan Ouanir
-*Maha Faruque
+<br>Fernando Rios
+<br>Hassan Ouanir
+<br>Maha Faruque
 
 
 Description
@@ -46,7 +46,7 @@ In its lines this notebook follow these steps.
  
 To visualize the log file we use TensorBoard (Depicting loss on the training and validation sets versus epochs, roc curve and confusion matrix on test sets)
  
-Part 2 (See file )
+Part 2 (See file "Part 2 - SHAP Approach Summary .docx")
 
 Part 3
 Go to the part 3 section, and run the lines. It will show the explanation using SHAP approach.
