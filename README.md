@@ -1,4 +1,4 @@
-# Project 2: Project Explainable COVID-19 Pneumonia
+# Project 2: Explainable COVID-19 Pneumonia
 ================================================================
 
 # NJIT Data Science Program
