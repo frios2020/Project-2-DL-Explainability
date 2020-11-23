@@ -30,7 +30,7 @@ We need to follow theses tasks to achieve the goal: They give you the COVID X-ra
 3. After your presentation, your manager is clearly impressed with the depth of the SHAP approach and asks for some results for explaining the COVID-19 diagnoses via it. You notice that the extremely popular SHAP Github repo already has an example with VGG16 network applied to ImageNet. You think it wont be too difficult to plugin the model you trained in (1) and explain it. 
 
 Part 1
-We created the notebook "CS677 Project 2 Explainability". It is prepared to run easily, just select option run step by step and update the config.yml file with thec correct paths
+We created the notebook "CS677 Project 2 Explainability". It is prepared to run easily, just select option run step by step and update the config.yml file with the correct paths
  
 In its lines this notebook follow these steps.
 <br>Step 1.0 Cloning repository covid-cxr
@@ -43,7 +43,8 @@ In its lines this notebook follow these steps.
 <br>Step 8.0 Execute train.py to train the neural network model. The trained model weights are saved within results/models/, and its filename will resemble the following structure: 	
 <br>Step 9.0 Execute lime_explain.py to generate interpretable explanations for the model's predictions on the test set.
 	!python src/interpretability/lime_explain.py
- 
+
+To verify the output of each step you can read the documentation.docx file.
 To visualize the log file we use TensorBoard (Depicting loss on the training and validation sets versus epochs, roc curve and confusion matrix on test sets)
  
 Part 2 (See file "Part 2 - SHAP Approach Summary .docx")
